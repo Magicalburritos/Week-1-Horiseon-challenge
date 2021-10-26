@@ -1,3 +1,4 @@
+/* elements start */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,6 +8,19 @@
 body {
   background-color: #d9dcd6;
 }
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* elements end */
+
+/* header start */
 
 .header {
   padding: 20px;
@@ -21,7 +35,7 @@ body {
   font-size: 48px;
 }
 
-.header h1 .seo {
+.header .seo {
   color: #d9dcd6;
 }
 
@@ -42,14 +56,9 @@ body {
   margin-left: 25px;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
+/*header stop*/
 
-p {
-  font-size: 16px;
-}
+/*hero images*/
 
 .hero {
   height: 800px;
@@ -69,6 +78,10 @@ p {
   float: right;
   margin-left: 25px;
 }
+
+/* hero end */
+
+/*sections start*/
 
 .content {
   width: 75%;
@@ -120,7 +133,6 @@ p {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
 .footer {
   padding: 30px;
   clear: both;
@@ -132,3 +144,5 @@ p {
 .footer h2 {
   font-size: 20px;
 }
+
+/* section end */
